@@ -1,0 +1,20 @@
+﻿@using GuidTimeLogic
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1> Do the thing!</h1>
+<label>Number of iterations
+    <input @bind=numIterations @/>
+</label>
+<button> type="submit"</button>
+
+
+
+@code
+{
+    Playgroud playgroud = new();
+    int numIterations:
+    List<(int iterations, TimeSpan duration)> results = new();
+    void
+}
